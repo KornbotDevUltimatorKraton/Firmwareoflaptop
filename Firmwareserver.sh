@@ -121,6 +121,10 @@ echo "Payment gateway"
 sudo pip3 install omise #Payment gate way 
 sudo pip3 install paypalrestsdk
 sudo pip3 install paypalhttp
+git clone https://github.com/paypal/Checkout-Python-SDK
+cd ~/Checkout-Python-SDK
+sudo python3 setuo.py install 
+cd ~
 sudo pip3 install 
 sudo pip3 install passwordgenerator
 sudo apt-get install sox -y 
