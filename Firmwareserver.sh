@@ -119,6 +119,9 @@ sudo pip3 install flask-Login
 sudo pip3 install flask-SQLAlchemy
 echo "Payment gateway"
 sudo pip3 install omise #Payment gate way 
+sudo pip3 install paypalrestsdk
+sudo pip3 install paypalhttp
+sudo pip3 install 
 sudo pip3 install passwordgenerator
 sudo apt-get install sox -y 
 sudo apt-get install libsox-dev -y  
