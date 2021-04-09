@@ -162,6 +162,10 @@ sudo apt-get install qttools5-dev-tools -y
 sudo pip3 install pyqtgraph 
 sudo apt-get install -y python3-pyqt5.qtopengl -y  
 sudo pip3 install PyOpenGL
+npm instll vue
+npm install vue-cli
+vue add vuetify
+npm install vuetify d3
 sudo apt-get install libpq-dev -y 
 echo 'Postgresql installation intiated.....'
 sudo apt-get install postgresql postgresql-contrib -y
