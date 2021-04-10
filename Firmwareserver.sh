@@ -117,6 +117,7 @@ sudo pip3 install flask
 echo "Autentication login"
 sudo pip3 install flask-Login
 sudo pip3 install flask-SQLAlchemy
+sudo pip3 install -U flask-cors
 echo "Payment gateway"
 sudo pip3 install omise #Payment gate way 
 sudo pip3 install paypalrestsdk
