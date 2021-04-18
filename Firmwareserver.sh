@@ -38,10 +38,10 @@ sudo pip3 install pandas
 sudo apt-get install python3-zbar -y  # Install the Zbar for the barcode scanner and QR code  scanner 
 sudo pip3 install Pillow 
 sudo pip3 install PyPDF2
-sudo pip3 install camelot
+#sudo pip3 install camelot
 #sudo pip3 install camelot-py
-#sudo pip3 install camelot-py[cv]
-sudo pip3 install camelot-py[all]
+sudo pip3 install camelot-py[cv]
+#sudo pip3 install camelot-py[all]
 sudo pip3 install imgextract # Extract the image from the pdf page file 
 sudo pip3 install cython 
 sudo pip3 install pcb-tools-extension
