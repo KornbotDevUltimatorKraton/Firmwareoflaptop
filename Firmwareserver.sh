@@ -68,6 +68,7 @@ sudo pip3 install keras==keras 2.2.4   # Keras support version
 #sudo pip3 install keras # Install keras for the tensorflow 
 sudo pip3 install protobuf
 sudo pip3 install googlesearch-python
+sudo apt-get install dnsutils -y 
 #>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
 echo"Computer vision installation library install here" 
 sudo apt-get install python3-opencv -y 
