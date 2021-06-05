@@ -91,11 +91,14 @@ sudo make install
 pkg-config --modversion opencv4
 python3 -c "import cv2; print(cv2.__version__)"
 #>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+sudo apt-get install liburdfdom-tools -y
+sudo pip3 install pyusb
 sudo pip3 install spectral
 sudo apt-get install nodejs-dev node-gyp libssl1.0-dev -y 
 sudo apt-get install npm -y 
 #npm install @types/dat.gui
 #sudo pip3 install opencv-mat
+npm i install urdf-loader    #URDF loader for the java script 
 sudo apt-get install cmake -y 
 echo "Install tool for the Natural language processing"
 sudo pip3 install --user -U nltk
