@@ -1,4 +1,4 @@
-echo "Welcome into the installer of Robotics Firmware command over java script"
+echo "Welcome into the installer of Robotics Firmware"
 sudo apt-get update && sudo apt-get upgrade -y # Upgrade the installer for the hardware lnux ubuntu 
 sudo apt-get install python3-dev -y   # Installing the python installer 
 sudo apt-get install python3-pip -y #Installing the pip installer for the python code 
