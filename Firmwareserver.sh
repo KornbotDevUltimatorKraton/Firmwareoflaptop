@@ -134,7 +134,7 @@ sudo pip3 install paypalhttp
 sudo pip3 install responses
 git clone https://github.com/paypal/Checkout-Python-SDK
 cd ~/Checkout-Python-SDK
-sudo python3 setuo.py install 
+sudo python3 setup.py install 
 cd ~
 sudo pip3 install 
 sudo pip3 install passwordgenerator
