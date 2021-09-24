@@ -121,7 +121,10 @@ sudo pip3 install PyWave
 sudo pip3 install pyvista 
 sudo pip3 install plotly
 sudo pip3 install googletrans==4.0.0rc1  # Google translate 
-sudo pip3 install google-speech # Google Speech function 
+sudo pip3 install google-speech # Google Speech function
+#install the library for the 
+sudo apt-get install libportaudio2 -y 
+sudo apt-get install flac -y 
 sudo pip3 install flask 
 echo "Autentication login"
 sudo pip3 install flask-Login
