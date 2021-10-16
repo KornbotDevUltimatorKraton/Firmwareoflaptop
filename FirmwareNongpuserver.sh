@@ -251,7 +251,11 @@ sudo apt-get install tree -y
 #tar -xvzf cudnn-10.1-linux-x64-v7.6.5.32.tgz
 #sudo cp /media/$USER/C8B063EAB063DD86/fixerror.sh -t /home/$USER
 #./fixerror.sh
-
+sudo pip3 install tensorflow-cpu 
+sudo apt-get update && sudo apt-get install vsftpd -y 
+sudo ufw allow 20:21\tcp
+sudo ufw allow 30000:31000/tcp  
+sudo ufw status 
 #sudo apt-get update 
 #sudo apt install mailutils -y 
 #sudo cp cuda/include/cudnn.h /usr/lib/cuda/include/
