@@ -261,7 +261,12 @@ sudo cp /media/$USER/C8B063EAB063DD86/fixerror.sh -t /home/$USER
 #echo 'export LD_LIBRARY_PATH=/usr/lib/cuda/lib64:$LD_LIBRARY_PATH' >> ~/.bashrc
 #echo 'export LD_LIBRARY_PATH=/usr/lib/cuda/include:$LD_LIBRARY_PATH' >> ~/.bashrc
 #source ~/.bashrc
+#sudo pip3 install tensorflow-cpu 
 sudo pip3 install tensorflow-gpu
+sudo apt-get update && sudo apt-get install vsftpd -y 
+sudo ufw allow 20:21\tcp
+sudo ufw allow 30000:31000/tcp  
+sudo ufw status 
 #echo 'Enable the postgresql for the advance database'
 #sudo gpasswd -a postgres ssl-cert
 
