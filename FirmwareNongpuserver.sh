@@ -120,6 +120,7 @@ sudo pip3 install pyglet
 sudo pip3 install PyWave 
 sudo pip3 install pyvista 
 sudo pip3 install plotly
+sudo pip3 install pyaudio 
 sudo pip3 install googletrans==4.0.0rc1  # Google translate 
 sudo pip3 install google-speech # Google Speech function
 #install the library for the 
@@ -251,6 +252,7 @@ sudo apt-get install tree -y
 #tar -xvzf cudnn-10.1-linux-x64-v7.6.5.32.tgz
 #sudo cp /media/$USER/C8B063EAB063DD86/fixerror.sh -t /home/$USER
 #./fixerror.sh
+sudo apt-get install btop++ -y
 sudo pip3 install tensorflow-cpu 
 sudo apt-get update && sudo apt-get install vsftpd -y 
 sudo ufw allow 20:21\tcp
