@@ -53,6 +53,8 @@ sudo pip3 install SpeechRecognition
 sudo pip3 install pygltflib
 echo "Mail sender"
 sudo pip3 install secure-smtplib
+echo 'Install mongoDB database for enterprise'
+sudo pip3 install pymongo
 echo "Installing the serial communication function"
 sudo pip3 install pyserial # Serial connection port 
 sudo pip3 install pyfirmata # Serial firmata protocol firmware communicate with the mcro controller
