@@ -186,6 +186,9 @@ sudo apt-get install libpq-dev -y
 echo 'Postgresql installation intiated.....'
 sudo apt-get install postgresql postgresql-contrib -y
 sudo pip3 install psycopg2 
+echo 'Install remote postgresql'
+sudo apt install postgresql-client-common -y 
+sudo apt install postgresql-client -y   
 sudo usermod -a -G dialout $USER  # Change the oem to according username 
 sudo chmod a+rw /dev/ttyUSB0  #Serial permission enable for the serial communication system
 #>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>..
