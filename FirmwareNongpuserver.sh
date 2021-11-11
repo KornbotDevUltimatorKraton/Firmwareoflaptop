@@ -184,6 +184,18 @@ sudo apt-get install libpq-dev -y
 echo 'Postgresql installation intiated.....'
 sudo apt-get install postgresql postgresql-contrib -y
 sudo pip3 install psycopg2 
+echo 'Install postgresql server database'  
+sudo apt install postgresql-client-common -y 
+sudo apt install postgresql-client -y
+echo 'Flask auth installation'
+sudo pip3 install requests 
+sudo pip3 install oauthlib 
+sudo pip3 install pyOpenSSL 
+sudo pip3 install blinker
+sudo pip3 install Flask-Dance
+sudo pip3 install python-dotenv
+sudo pip3 install SQLAlchemy-Utils
+
 sudo usermod -a -G dialout $USER  # Change the oem to according username 
 sudo chmod a+rw /dev/ttyUSB0  #Serial permission enable for the serial communication system
 #>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>..
