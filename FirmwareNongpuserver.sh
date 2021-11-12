@@ -187,6 +187,7 @@ sudo pip3 install psycopg2
 echo 'Install postgresql server database'  
 sudo apt install postgresql-client-common -y 
 sudo apt install postgresql-client -y
+sudo pip3 install flask-marshmallow 
 echo 'Flask auth installation'
 sudo pip3 install requests 
 sudo pip3 install oauthlib 
