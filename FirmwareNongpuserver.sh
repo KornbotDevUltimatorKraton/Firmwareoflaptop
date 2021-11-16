@@ -198,7 +198,9 @@ sudo pip3 install blinker
 sudo pip3 install Flask-Dance
 sudo pip3 install python-dotenv
 sudo pip3 install SQLAlchemy-Utils
-
+echo 'Update installation on the google auth'
+sudo pip3 install --upgrade google-api-python-client
+sudo pip3 install --upgrade google-auth google-auth-oauthlib google-auth-httplib2
 sudo usermod -a -G dialout $USER  # Change the oem to according username 
 sudo chmod a+rw /dev/ttyUSB0  #Serial permission enable for the serial communication system
 #>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>..
