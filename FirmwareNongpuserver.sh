@@ -141,7 +141,7 @@ git clone https://github.com/paypal/Checkout-Python-SDK
 cd ~/Checkout-Python-SDK
 sudo python3 setup.py install 
 cd ~
-sudo pip3 install 
+sudo pip3 install image_slicer
 sudo pip3 install passwordgenerator
 sudo apt-get install sox -y 
 sudo apt-get install libsox-dev -y  
@@ -175,6 +175,7 @@ sudo apt-get install python3-pyqt5 -y
 sudo apt-get install pyqt5-dev-tools -y 
 sudo apt-get install qttools5-dev-tools -y 
 sudo pip3 install pyqtgraph 
+sudo pip3 install image_slicer
 sudo apt-get install -y python3-pyqt5.qtopengl -y  
 sudo pip3 install PyOpenGL
 npm instll vue
