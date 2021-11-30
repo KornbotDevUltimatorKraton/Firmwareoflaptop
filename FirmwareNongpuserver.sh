@@ -3,6 +3,7 @@ sudo apt-get update && sudo apt-get upgrade -y # Upgrade the installer for the h
 sudo apt-get install python3-dev -y   # Installing the python installer 
 sudo apt-get install python3-pip -y #Installing the pip installer for the python code 
 sudo apt install build-essential libssl-dev libffi-dev python3-setuptools -y 
+sudo pip3 install virtualenv    # Install the virtual environment 
 sudo apt-get install cmake -y 
 sudo apt-get install curl -y 
 echo 'Git installation'
@@ -205,7 +206,10 @@ sudo pip3 install --upgrade google-api-python-client
 sudo pip3 install --upgrade google-auth google-auth-oauthlib google-auth-httplib2
 sudo usermod -a -G dialout $USER  # Change the oem to according username 
 sudo chmod a+rw /dev/ttyUSB0  #Serial permission enable for the serial communication system
-#>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>..
+#>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+ # Install the G-code writer function for the robot control precision kinemetic and manipulation 
+
+#>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
 echo "Install the RSA for the certificate generator openssl" # Generate the certification of the secure communication 
 sudo apt-get install easy-rsa -y 
 echo "Install gunicorn"
