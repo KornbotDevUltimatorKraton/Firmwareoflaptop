@@ -39,6 +39,7 @@ sudo pip3 install pandas
 sudo apt-get install python3-zbar -y  # Install the Zbar for the barcode scanner and QR code  scanner 
 sudo pip3 install Pillow 
 sudo pip3 install PyPDF2
+sudo pip3 install openpyxl
 #sudo pip3 install camelot
 #sudo pip3 install camelot-py
 sudo pip3 install camelot-py[cv]
