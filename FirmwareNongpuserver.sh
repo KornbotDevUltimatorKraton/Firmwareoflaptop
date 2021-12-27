@@ -157,7 +157,9 @@ sudo pip3 install pyeagle
 sudo pip3 install eagexp
 echo 'Install openssh server'
 sudo apt-get install openssh-server -y  
-
+echo 'Wifi scanner installer' 
+sudo apt-get install net-tools -y
+sudo apt-get install arp-scan -y
 echo 'Install and setup partition'
 sudo apt-get install gparted -y 
 git clone https://github.com/pallets/click
