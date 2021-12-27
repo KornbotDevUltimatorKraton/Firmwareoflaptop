@@ -214,6 +214,9 @@ sudo chmod a+rw /dev/ttyUSB0  #Serial permission enable for the serial communica
  # Install the G-code writer function for the robot control precision kinemetic and manipulation 
 
 #>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+#Install ssh mode 
+echo 'SSH mode installation' 
+sudo pip3 install paramiko 
 echo "Install the RSA for the certificate generator openssl" # Generate the certification of the secure communication 
 sudo apt-get install easy-rsa -y 
 echo "Install gunicorn"
