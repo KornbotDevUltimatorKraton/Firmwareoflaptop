@@ -127,6 +127,7 @@ sudo pip3 install pyaudio
 sudo pip3 install googletrans==4.0.0rc1  # Google translate 
 sudo pip3 install google-speech # Google Speech function
 sudo pip3 install qtwidgets
+sudo snap install heroku --classic
 #install the library for the 
 sudo apt-get install libportaudio2 -y 
 sudo apt-get install flac -y 
