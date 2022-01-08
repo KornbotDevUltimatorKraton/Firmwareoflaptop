@@ -258,6 +258,11 @@ sudo apt-get install mutt -y
 echo "Certbot Secure application" 
 #sudo add-apt-repository ppa:certbot/certbot
 sudo apt install certbot python3-certbot-nginx -y
+sudo apt-get update 
+sudo apt-get install certbot -y 
+sudo apt-get install python3-certbot
+sudo apt install python3.9-venv -y 
+
 #sudo cp -R /media/$USER/C8B063EAB063DD86/Websucsmailsend/idatabots -t /var/www/ # Get the directory of the working file
 sudo apt update 
 sudo apt-get install postfix -y 
@@ -288,6 +293,9 @@ sudo apt-get update && sudo apt-get install vsftpd -y
 sudo ufw allow 20:21\tcp
 sudo ufw allow 30000:31000/tcp  
 sudo ufw status 
+echo 'Install the generated website from github'  
+
+
 #sudo apt-get update 
 #sudo apt install mailutils -y 
 #sudo cp cuda/include/cudnn.h /usr/lib/cuda/include/
