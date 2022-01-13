@@ -185,6 +185,8 @@ sudo apt-get install python3-pyqt5 -y
 sudo apt-get install pyqt5-dev-tools -y 
 sudo apt-get install qttools5-dev-tools -y 
 sudo pip3 install pyqtgraph 
+sudo pip3 install pyvistaqt 
+sudo pip3 install qtpy
 sudo pip3 install image_slicer
 sudo apt-get install -y python3-pyqt5.qtopengl -y  
 sudo pip3 install PyOpenGL
