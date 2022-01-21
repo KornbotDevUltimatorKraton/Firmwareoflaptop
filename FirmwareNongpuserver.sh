@@ -191,6 +191,7 @@ sudo pip3 install image_slicer
 sudo apt-get install -y python3-pyqt5.qtopengl -y  
 sudo pip3 install PyOpenGL
 sudo pip3 install vispy
+sudo pip3 install mesmerize
 npm instll vue
 npm install vue-cli
 vue add vuetify
