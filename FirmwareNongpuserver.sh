@@ -3,7 +3,9 @@ sudo apt-get update && sudo apt-get upgrade -y # Upgrade the installer for the h
 sudo apt-get install python3-dev -y   # Installing the python installer 
 sudo apt-get install python3-pip -y #Installing the pip installer for the python code 
 sudo apt install build-essential libssl-dev libffi-dev python3-setuptools -y 
+
 sudo pip3 install virtualenv    # Install the virtual environment 
+sudo apt install python3-venv
 sudo apt-get install cmake -y 
 sudo apt-get install curl -y 
 echo 'Git installation'
