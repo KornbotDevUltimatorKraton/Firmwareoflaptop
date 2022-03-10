@@ -102,6 +102,9 @@ sudo apt-get install liburdfdom-tools -y
 sudo pip3 install pyzbar 
 sudo pip3 install pyusb
 sudo pip3 install spectral
+echo "Servo i2c expansion HAT"
+sudo pip3 install adafruit-circuitpython-pca9685
+sudo pip3 install adafruit-circuitpython-servokit
 sudo apt-get install nodejs-dev node-gyp libssl1.0-dev -y 
 sudo apt-get install npm -y 
 #npm install @types/dat.gui
