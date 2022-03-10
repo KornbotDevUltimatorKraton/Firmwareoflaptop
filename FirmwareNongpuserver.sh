@@ -26,7 +26,8 @@ echo "Install smbus for communication protocol"
 sudo apt install mesa-utils -y 
 #>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
 sudo pip3 install smbus  #install the smbus protocol for communication with the sensors onboard on devices or robot automation 
-sudo pip3 install smbus2 #install the smbus2 protocol for the communication with the sensors onboard devices of the robot automation  
+sudo pip3 install smbus2 #install the smbus2 protocol for the communication with the sensors onboard devices of the robot automation
+sudo pip3 install Adafruit-Blinka
 sudo pip3 install bmp280 #install the bmp280 for the Barometer and temoerature sensor
 sudo pip3 install mpu9250-jmdev # mpu9250 over the i2c devices 
 sudo pip3 install pyinstaller # Pyinstaller function of the single execuable file 
