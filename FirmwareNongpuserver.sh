@@ -237,15 +237,16 @@ sudo chmod a+rw /dev/ttyUSB0  #Serial permission enable for the serial communica
 #Install ssh mode 
 echo 'SSH mode installation' 
 sudo pip3 install paramiko 
-echo "Install the RSA for the certificate generator openssl" # Generate the certification of the secure communication 
+secho "Install the RSA for the certificate generator openssl" # Generate the certification of the secure communication 
 sudo apt-get install easy-rsa -y 
 echo "Install gunicorn"
 sudo apt-get install gunicorn -y 
-sudo apt-get instlall uwsgi -y 
+sudo apt-get intlall uwsgi -y 
 echo "Authentication bind"
 audo apt-get install authbind -y 
 sudo apt-get install supervisor -y
 echo "ufw fire wall setting and port"
+sudo apt-get install ufw -y
 sudo ufw enable
 sudo ufw status 
 sudo ufw allow 80
