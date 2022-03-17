@@ -35,6 +35,7 @@ git clone https://github.com/Intelligent-Vehicle-Perception/MPU-9250-Sensors-Dat
 sudo pip3 install imutils 
 sudo pip3 install streamlit
 sudo pip3 install python3-scapy 
+sudo apt-get install python3-pyaudio -y 
 #>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
 sudo pip3 install scipy 
 sudo pip3 install sklearn 
