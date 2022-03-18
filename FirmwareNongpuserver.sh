@@ -68,6 +68,7 @@ sudo pip3 install pyserial # Serial connection port
 sudo pip3 install pyfirmata # Serial firmata protocol firmware communicate with the mcro controller
 sudo pip3 uninstall regex -y 
 sudo pip3 install regex
+sudo pip3 install scapy 
 echo "Install tensorflow for the deep learning and machine learning capability"
 sudo pip3 install numpy 
 #sudo pip3 install numpy==1.16.4
