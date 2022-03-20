@@ -1,6 +1,6 @@
 echo "Welcome into the installer of Robotics Firmware"
 sudo apt-get update && sudo apt-get upgrade -y # Upgrade the installer for the hardware lnux ubuntu 
-sudo apt-get install python3-dev -y   # Installing the python installer 
+python3-dev -y   # Installing the python installer 
 sudo apt-get install python3-pip -y #Installing the pip installer for the python code 
 sudo apt install build-essential libssl-dev libffi-dev python3-setuptools -y 
 
@@ -284,7 +284,7 @@ echo "Certbot Secure application"
 sudo apt install certbot python3-certbot-nginx -y
 sudo apt-get update 
 sudo apt-get install certbot -y 
-sudo apt-get install python3-certbot
+sudo apt-get install python3-certbot -y
 sudo apt install python3.9-venv -y 
 
 #sudo cp -R /media/$USER/C8B063EAB063DD86/Websucsmailsend/idatabots -t /var/www/ # Get the directory of the working file
