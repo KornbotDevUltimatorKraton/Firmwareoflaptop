@@ -34,6 +34,7 @@ sudo pip3 install pyinstaller # Pyinstaller function of the single execuable fil
 git clone https://github.com/Intelligent-Vehicle-Perception/MPU-9250-Sensors-Data-Collect.git MPU9250
 sudo pip3 install imutils 
 sudo pip3 install streamlit
+sudo pip3 install Pynsq 
 sudo pip3 install python3-scapy 
 sudo apt-get install python3-pyaudio -y 
 #>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
