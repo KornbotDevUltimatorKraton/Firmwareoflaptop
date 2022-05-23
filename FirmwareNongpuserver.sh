@@ -215,6 +215,7 @@ sudo pip3 install PyOpenGL
 sudo pip3 install vispy
 sudo pip3 install mesmerize
 sudo pip3 install printrun
+sudo apt install libzbar0 -y 
 npm instll vue
 npm install vue-cli
 vue add vuetify
