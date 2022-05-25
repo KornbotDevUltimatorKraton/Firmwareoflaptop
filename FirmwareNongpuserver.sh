@@ -64,6 +64,8 @@ sudo ppt-gip3 install jiwer
 sudo pip3 install geopy # Geopy for the location positioning from the gps 
 sudo pip3 install SpeechRecognition
 sudo pip3 install pygltflib
+sudo pip3 install pybluez 
+sudo apt-get install libbluetooth-dev -y 
 echo "Mail sender"
 sudo pip3 install secure-smtplib
 echo "Installing the serial communication function"
