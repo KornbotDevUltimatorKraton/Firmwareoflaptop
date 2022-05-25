@@ -50,6 +50,7 @@ sudo pip3 install PyPDF2
 sudo pip3 install pdfquery 
 sudo pip3 install PyMuPDF   
 sudo pip3 install wordninja
+sudo pip3 install pattern
 sudo pip3 install openpyxl
 #sudo pip3 install camelot
 #sudo pip3 install camelot-py
