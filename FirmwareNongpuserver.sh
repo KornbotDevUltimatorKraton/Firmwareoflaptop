@@ -29,7 +29,6 @@ sudo pip3 install smbus  #install the smbus protocol for communication with the 
 sudo pip3 install smbus2 #install the smbus2 protocol for the communication with the sensors onboard devices of the robot automation
 sudo pip3 install Adafruit-Blinka
 sudo pip3 install bmp280 #install the bmp280 for the Barometer and temoerature sensor
-sudo pip3 install mpu9250-jmdev # mpu9250 over the i2c devices 
 sudo pip3 install pyinstaller # Pyinstaller function of the single execuable file 
 git clone https://github.com/Intelligent-Vehicle-Perception/MPU-9250-Sensors-Data-Collect.git MPU9250
 sudo pip3 install adafruit-circuitpython-mpu6050
@@ -66,6 +65,7 @@ sudo pip3 install geopy # Geopy for the location positioning from the gps
 sudo pip3 install SpeechRecognition
 sudo pip3 install pygltflib
 sudo pip3 install pybluez 
+sudo pip3 install nltk --upgrade 
 sudo apt-get install libbluetooth-dev -y 
 echo "Mail sender"
 sudo pip3 install secure-smtplib
@@ -124,7 +124,7 @@ sudo apt-get install npm -y
 npm i install urdf-loader    #URDF loader for the java script 
 sudo apt-get install cmake -y 
 echo "Install tool for the Natural language processing"
-sudo pip3 install --user -U nltk
+sudo pip3 install --user -U 
 sudo pip3 install -U spacy # Install the spacy tool for the speech processing 
 echo "Downloading data for the spacy natural language processing"
 python3 -m spacy download xx_ent_wiki_sm # spacy download the sm file for the data of the natural language processing
