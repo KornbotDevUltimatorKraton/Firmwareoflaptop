@@ -141,6 +141,9 @@ sudo pip3 install PyAutoGUI # PyAutoGUI function for the automatic GUI control f
 sudo pip3 install face_recognition
 sudo pip3 install pyglet 
 sudo pip3 install PyWave 
+#Install the NLP library for working with language processing with multi language NLP 
+sudo pip3 install polyglot 
+sudo pip3 install pycld2 
 sudo pip3 install pyvista 
 sudo pip3 install plotly
 sudo pip3 install dash 
