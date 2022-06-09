@@ -144,6 +144,12 @@ sudo pip3 install PyWave
 #Install the NLP library for working with language processing with multi language NLP 
 sudo pip3 install polyglot 
 sudo pip3 install pycld2 
+sudo pip3 install morfessor
+!polyglot LANG:ar 
+!polyglot pos2.pt
+!polyglot embeddings2.pt
+!polyglot sqns2.en
+
 sudo pip3 install pyvista 
 sudo pip3 install plotly
 sudo pip3 install dash 
