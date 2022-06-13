@@ -161,7 +161,7 @@ sudo snap install heroku --classic
 sudo pip3 install openpyxl 
 sudo pip3 install pyzbar  
 sudo pip3 install qrcode 
-
+sudo pip3 install printrun 
 #install the library for the 
 sudo apt-get install libportaudio2 -y 
 sudo apt-get install flac -y 
@@ -226,7 +226,9 @@ sudo apt-get install -y python3-pyqt5.qtopengl -y
 sudo pip3 install PyOpenGL
 sudo pip3 install vispy
 sudo pip3 install mesmerize
-sudo pip3 install printrun
+sudo pip3 install 
+
+
 sudo apt install libzbar0 -y 
 npm instll vue
 npm install vue-cli
