@@ -17,6 +17,7 @@ sudo apt-get install openssh-server -y
 echo "Install Htop"
 sudo apt-get install htop -y
 sudo apt-get install snap -y
+sudo apt-get install arduino -y 
 #>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
 echo "Install i2c data"
 sudo apt-get install i2c-tools -y 
@@ -232,7 +233,6 @@ sudo apt-get install -y python3-pyqt5.qtopengl -y
 sudo pip3 install PyOpenGL
 sudo pip3 install vispy
 sudo pip3 install mesmerize
-sudo pip3 install 
 
 
 sudo apt install libzbar0 -y 
