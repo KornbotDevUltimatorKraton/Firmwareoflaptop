@@ -16,6 +16,7 @@ echo "install open ssh"
 sudo apt-get install openssh-server -y
 echo "Install Htop"
 sudo apt-get install htop -y
+sudo apt-get install snap -y
 #>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
 echo "Install i2c data"
 sudo apt-get install i2c-tools -y 
