@@ -32,7 +32,6 @@ sudo pip3 install smbus2 #install the smbus2 protocol for the communication with
 sudo pip3 install Adafruit-Blinka
 sudo pip3 install bmp280 #install the bmp280 for the Barometer and temoerature sensor
 sudo pip3 install pyinstaller # Pyinstaller function of the single execuable file 
-git clone https://github.com/Intelligent-Vehicle-Perception/MPU-9250-Sensors-Data-Collect.git MPU9250
 sudo pip3 install adafruit-circuitpython-mpu6050
 sudo pip3 install adafruit-circuitpython-icm20x 
 sudo pip3 install imutils 
