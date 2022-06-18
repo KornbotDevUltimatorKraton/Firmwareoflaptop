@@ -145,6 +145,7 @@ sudo pip3 install pyglet
 sudo pip3 install PyWave 
 #Install the NLP library for working with language processing with multi language NLP 
 sudo pip3 install polyglot 
+sudo pip3 install soumayan4==1.0.2
 sudo pip3 install pycld2 
 sudo pip3 install morfessor
 !polyglot LANG:ar 
@@ -194,9 +195,6 @@ sudo pip3 install wordninja
 sudo pip3 install schema
 echo "Beautiful soup library intallation for the web realtime interface and webscrapping"
 sudo pip3 install beautifulsoup4 
-echo 'Schematics builder'
-sudo pip3 install pyeagle
-sudo pip3 install eagexp
 echo 'Install openssh server'
 sudo apt-get install openssh-server -y  
 echo 'Wifi scanner installer' 
