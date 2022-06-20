@@ -35,6 +35,7 @@ sudo pip3 install pyinstaller # Pyinstaller function of the single execuable fil
 sudo pip3 install adafruit-circuitpython-mpu6050
 sudo pip3 install adafruit-circuitpython-icm20x 
 sudo pip3 install imutils 
+sudo pip3 install unidecode 
 sudo pip3 install streamlit
 sudo pip3 install Pynsq 
 sudo pip3 install python3-scapy 
