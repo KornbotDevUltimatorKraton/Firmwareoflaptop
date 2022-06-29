@@ -6,3 +6,4 @@ cd portaudio
 sudo make install
 sudo ldconfig
 cd ..
+sudo pip3 install pyaudio --upgrade 
