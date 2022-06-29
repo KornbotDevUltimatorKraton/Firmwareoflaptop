@@ -317,6 +317,17 @@ sudo apt-get update && sudo apt-get install vsftpd -y
 sudo ufw allow 20:21\tcp
 sudo ufw allow 30000:31000/tcp  
 sudo ufw status 
+
+sudo apt-get remove libportaudio2 -y 
+sudo apt-get install libasound2-dev -y 
+git clone -b alsapatch https://github.com/gglockner/portaudio
+cd portaudio
+./configure && make
+sudo make install
+sudo ldconfig
+cd ..
+sudo pip3 install pyaudio --upgrade 
+
 echo 'Install the generated website from github'  
 
 sudo chmod -R 777 /etc/supervisor
