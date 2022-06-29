@@ -320,6 +320,7 @@ sudo ufw status
 echo 'Install the generated website from github'  
 
 sudo chmod -R 777 /etc/supervisor
+sudo chmod +x /etc/supervisor
 sudo chmod -R 777 /var/log/
 sudo mkdir /home/$USER/Roboreactor_projects
 sudo chmod -R 777 /home/$USER/Roboreactor_projects 
