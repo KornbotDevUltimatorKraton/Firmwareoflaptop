@@ -344,7 +344,10 @@ sudo ufw allow 20:21\tcp
 sudo ufw allow 30000:31000/tcp  
 sudo ufw status 
 echo 'Install the generated website from github'  
-
+sudo chmod -R 777 /etc/supervisor
+sudo chmod -R 777 /var/log/
+sudo mkdir /home/$USER/Roboreactor_projects
+sudo chmod -R 777 /home/$USER/Roboreactor_projects 
 
 #sudo apt-get update 
 #sudo apt install mailutils -y 
