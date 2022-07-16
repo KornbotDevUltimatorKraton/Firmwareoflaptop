@@ -124,6 +124,7 @@ sudo apt-get install npm -y
 #npm install @types/dat.gui
 #sudo pip3 install opencv-mat
 npm i install urdf-loader    #URDF loader for the java script 
+npm create vite@latest # install svelte +vite npm i -save -dev sudo npm i -global
 sudo apt-get install cmake -y 
 echo "Install tool for the Natural language processing"
 sudo pip3 install --user -U 
