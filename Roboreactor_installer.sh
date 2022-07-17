@@ -126,6 +126,8 @@ sudo apt-get install imagemagick -y
 sudo apt-get install libicu-dev -y 
 sudo apt-get install libpango1.0-dev -y 
 sudo apt-get install libcairo2-dev -y 
+sudo pip3 install filterpy --upgrade 
+sudo pip3 install simple-pid --upgrade 
 convert -h
 
 sudo pip3 install pytesseract
