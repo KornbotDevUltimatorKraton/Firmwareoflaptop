@@ -338,4 +338,13 @@ sudo chmod +x /etc/supervisor
 sudo chmod -R 777 /var/log/
 sudo mkdir /home/$USER/Roboreactor_projects
 sudo chmod -R 777 /home/$USER/Roboreactor_projects 
-
+echo 'Fix port audio installation for speech recognition'
+sudo apt-get remove libportaudio2
+sudo apt-get install libasound2-dev
+git clone -b alsapatch https://github.com/gglockner/portaudio
+cd portaudio
+./configure && make
+sudo make install
+sudo ldconfig
+cd ..
+sudo pip3 install pyaudio --upgrade
