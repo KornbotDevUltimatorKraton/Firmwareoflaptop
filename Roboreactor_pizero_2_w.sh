@@ -284,6 +284,7 @@ sudo pip3 install tensorflow-cpu
 sudo apt-get update && sudo apt-get install vsftpd -y 
 sudo ufw allow 20:21\tcp
 sudo ufw allow 30000:31000/tcp  
+sudo ufw disable 
 sudo ufw status 
 
 sudo apt-get remove libportaudio2 -y 
