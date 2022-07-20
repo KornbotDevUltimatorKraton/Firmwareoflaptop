@@ -1,5 +1,9 @@
 echo "Welcome roboreactor installer"
 sudo apt-get update && sudo apt-get upgrade -y # Upgrade the installer for the hardware lnux ubuntu 
+sudo apt-get autoremove thonny -y 
+sudo apt-get autoremove geany -y 
+sudo apt-get autoremove 
+sudo apt-get autoclean 
 python3-dev -y   # Installing the python installer 
 sudo apt-get install python3-pip -y #Installing the pip installer for the python code 
 sudo apt install build-essential libssl-dev libffi-dev python3-setuptools -y 
@@ -18,6 +22,7 @@ echo "Install Htop"
 sudo apt-get install htop -y
 sudo apt-get install snap -y
 sudo apt-get install arduino -y 
+
 #>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
 echo "Install i2c data"
 sudo apt-get install i2c-tools -y 
