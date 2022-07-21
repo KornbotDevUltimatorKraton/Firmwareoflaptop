@@ -221,7 +221,14 @@ sudo apt-get install -y python3-pyqt5.qtopengl -y
 sudo pip3 install PyOpenGL
 sudo pip3 install vispy
 sudo pip3 install mesmerize
-
+#g2opy installation 
+git clone https://github.com/uoip/g2opy
+cd ~/g2opy/
+mkdir build && cd build  
+sudo apt-get install build-essential cmake libeigen3-dev -y
+sudo apt-get install -y libqglviewer-dev-qt5 -y 
+#cmake configuretion 
+make -j8
 
 sudo apt install libzbar0 -y 
 npm instll vue
