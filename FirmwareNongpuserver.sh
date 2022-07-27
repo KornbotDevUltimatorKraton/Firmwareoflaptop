@@ -349,7 +349,8 @@ sudo chmod -R 777 /etc/supervisor
 sudo chmod -R 777 /var/log/
 sudo mkdir /home/$USER/Roboreactor_projects
 sudo chmod -R 777 /home/$USER/Roboreactor_projects 
-
+sudo apt-get install docker -y && sudo apt-get install docker.io -y 
+sudo npm install -g typescript
 #sudo apt-get update 
 #sudo apt install mailutils -y 
 #sudo cp cuda/include/cudnn.h /usr/lib/cuda/include/
