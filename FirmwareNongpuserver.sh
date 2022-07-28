@@ -90,6 +90,7 @@ sudo pip3 install protobuf
 sudo pip3 install googlesearch-python
 sudo apt-get install dnsutils -y 
 sudo apt-get install v4l-utils -y 
+sudo apt-get install smstools -y
 #>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
 echo"Computer vision installation library install here" 
 sudo apt-get install python3-opencv -y 
