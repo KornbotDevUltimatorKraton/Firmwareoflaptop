@@ -223,7 +223,9 @@ sudo chmod a+rw /dev/ttyUSB0  #Serial permission enable for the serial communica
 sudo npm install pg -g
 #>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
  # Install the G-code writer function for the robot control precision kinemetic and manipulation 
-
+# Getting the pybluez for the communication outdoor device 
+sudo apt-get install libbluetooth-dev -y 
+sudo pip3 install PyBluez     
 #>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
 #Install ssh mode 
 echo 'SSH mode installation' 
