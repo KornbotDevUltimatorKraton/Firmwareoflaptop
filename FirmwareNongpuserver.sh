@@ -40,6 +40,7 @@ sudo pip3 install streamlit
 sudo pip3 install Pynsq 
 sudo pip3 install python3-scapy 
 sudo apt-get install python3-pyaudio -y 
+sudo apt install python3-sphinx -y 
 #>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
 sudo pip3 install scipy 
 sudo pip3 install sklearn 
