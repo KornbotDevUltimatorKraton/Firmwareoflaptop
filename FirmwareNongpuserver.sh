@@ -353,6 +353,7 @@ sudo mkdir /home/$USER/Roboreactor_projects
 sudo chmod -R 777 /home/$USER/Roboreactor_projects 
 sudo apt-get install docker -y && sudo apt-get install docker.io -y 
 sudo npm install -g typescript
+npm install express 
 #sudo apt-get update 
 #sudo apt install mailutils -y 
 #sudo cp cuda/include/cudnn.h /usr/lib/cuda/include/
