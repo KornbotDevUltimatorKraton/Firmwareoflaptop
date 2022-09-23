@@ -5,7 +5,7 @@ sudo apt-get install python3-pip -y #Installing the pip installer for the python
 sudo apt install build-essential libssl-dev libffi-dev python3-setuptools -y 
 
 sudo pip3 install virtualenv    # Install the virtual environment 
-sudo apt install python3-venv
+sudo apt install python3-venv -y 
 sudo apt-get install cmake -y 
 sudo apt-get install curl -y 
 echo 'Git installation'
