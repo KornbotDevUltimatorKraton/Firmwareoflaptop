@@ -355,6 +355,7 @@ sudo apt-get install docker -y && sudo apt-get install docker.io -y
 sudo npm install -g typescript
 npm install express 
 sudo pip3 install flask==2.1.3
+sudo pip3 install flask_wtf
 sudo pip3 install werkzeug==0.16.1
 #sudo apt-get update 
 #sudo apt install mailutils -y 
