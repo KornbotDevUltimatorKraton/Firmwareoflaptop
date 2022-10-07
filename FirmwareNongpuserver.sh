@@ -1,7 +1,11 @@
 echo "Welcome into the installer of Robotics Firmware"
 sudo apt-get update && sudo apt-get upgrade -y # Upgrade the installer for the hardware lnux ubuntu 
 python3-dev -y   # Installing the python installer 
-sudo apt-get install python3-pip -y #Installing the pip installer for the python code 
+#sudo apt-get install python3-pip -y #Installing the pip installer for the python code 
+sudo apt remove python3-pip 
+wget https://bootstrap.pypa.io/get-pip.py
+sudo python3 get-pip.py
+
 sudo apt install build-essential libssl-dev libffi-dev python3-setuptools -y 
 
 sudo pip3 install virtualenv    # Install the virtual environment 
