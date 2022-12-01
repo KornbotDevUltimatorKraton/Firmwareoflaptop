@@ -360,6 +360,7 @@ sudo npm install -g typescript
 npm install express 
 sudo pip3 install flask==2.1.1
 sudo pip3 install flask_wtf
+sudo pip3 install mysql-connector-python
 #sudo pip3 install mysql-connector-python
 #sudo pip3 install werkzeug==0.16.1
 #sudo apt-get update 
