@@ -238,8 +238,7 @@ sudo apt-get install -y python3-pyqt5.qtopengl -y
 sudo pip3 install PyOpenGL
 sudo pip3 install vispy
 sudo pip3 install mesmerize
-
-
+sudo pip3 install stripe
 sudo apt install libzbar0 -y 
 npm instll vue
 npm install vue-cli
