@@ -260,7 +260,9 @@ sudo pip3 install flask-marshmallow
 echo 'Flask auth installation'
 sudo pip3 install requests 
 sudo pip3 install oauthlib 
-sudo pip3 install pyOpenSSL 
+#sudo pip3 install pyOpenSSL 
+sudo apt install libssl-dev -y
+sudo pip3 install --upgrade pyOpenSSL 
 sudo pip3 install blinker
 sudo pip3 install Flask-Dance
 sudo pip3 install python-dotenv
