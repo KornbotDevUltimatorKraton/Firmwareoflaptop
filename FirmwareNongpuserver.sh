@@ -191,6 +191,7 @@ echo "Payment gateway"
 sudo pip3 install omise #Payment gate way 
 sudo pip3 install paypalrestsdk
 sudo pip3 install paypalhttp
+sudo pip3 install paypal-checkout-serversdk
 sudo pip3 install responses
 git clone https://github.com/paypal/Checkout-Python-SDK
 cd ~/Checkout-Python-SDK
