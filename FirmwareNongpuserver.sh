@@ -252,6 +252,7 @@ npm install vuetify d3
 sudo apt-get install libpq-dev -y 
 echo 'Postgresql installation intiated.....'
 sudo apt-get install postgresql postgresql-contrib -y
+sudo pip3 install randomname
 sudo pip3 install psycopg2 
 sudo pip3 install psycopg2-binary
 echo 'Install postgresql server database'  
@@ -285,6 +286,8 @@ sudo apt-get install easy-rsa -y
 echo "Install gunicorn"
 sudo apt-get install gunicorn -y 
 sudo apt-get intlall uwsgi -y 
+sudo pip3 install fastapi  
+sudo pip3 install uvicorn 
 echo "Authentication bind"
 audo apt-get install authbind -y 
 sudo apt-get install supervisor -y
