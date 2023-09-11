@@ -289,6 +289,7 @@ sudo apt-get install gunicorn -y
 sudo apt-get intlall uwsgi -y 
 sudo pip3 install fastapi  
 sudo pip3 install uvicorn 
+sudo pip3 install python-multipart
 echo "Authentication bind"
 audo apt-get install authbind -y 
 sudo apt-get install supervisor -y
