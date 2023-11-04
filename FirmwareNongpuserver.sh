@@ -187,16 +187,22 @@ echo "Autentication login"
 sudo pip3 install flask-Login
 sudo pip3 install flask-SQLAlchemy
 sudo pip3 install -U flask-cors
+echo "Lanchain"
+sudo pip3 install pypdf
+sudo pip3 install langchain
+sudo pip3 install openai
+sudo pip3 install chromadb
+sudo pip3 install tiktoken
 echo "Payment gateway"
 sudo pip3 install omise #Payment gate way 
 sudo pip3 install paypalrestsdk
 sudo pip3 install paypalhttp
 sudo pip3 install paypal-checkout-serversdk
 sudo pip3 install responses
-git clone https://github.com/paypal/Checkout-Python-SDK
-cd ~/Checkout-Python-SDK
-sudo python3 setup.py install 
-cd ~
+#git clone https://github.com/paypal/Checkout-Python-SDK
+#cd ~/Checkout-Python-SDK
+#sudo python3 setup.py install 
+#cd ~
 sudo pip3 install image_slicer
 sudo pip3 install passwordgenerator
 sudo apt-get install sox -y 
