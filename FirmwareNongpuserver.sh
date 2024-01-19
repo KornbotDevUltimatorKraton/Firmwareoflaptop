@@ -386,7 +386,8 @@ sudo pip3 install openai
 sudo pip3 install langchain
 sudo pip3 install chromadb 
 sudo pip3 install tiktoken
-
+#Install aplay alsa 
+sudo apt-get install alsa-utils -y 
 #sudo pip3 install mysql-connector-python
 #sudo pip3 install werkzeug==0.16.1
 #sudo apt-get update 
