@@ -49,6 +49,7 @@ sudo apt install python3-sphinx -y
 sudo pip3 install scipy 
 sudo pip3 install sklearn 
 sudo pip3 install matplotlib --upgrade 
+sudo pip3 install geonamescache
 sudo pip3 install pandas 
 sudo apt-get install python3-zbar -y  # Install the Zbar for the barcode scanner and QR code  scanner 
 sudo pip3 install Pillow 
