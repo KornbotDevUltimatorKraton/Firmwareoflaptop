@@ -60,6 +60,7 @@ sudo pip3 install PyMuPDF
 sudo pip3 install wordninja
 sudo pip3 install pattern
 sudo pip3 install openpyxl
+sudo pip3 install gensim
 #sudo pip3 install camelot
 #sudo pip3 install camelot-py
 sudo pip3 install camelot-py[cv]
