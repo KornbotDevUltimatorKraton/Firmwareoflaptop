@@ -48,7 +48,7 @@ sudo apt install python3-sphinx -y
 #>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
 sudo pip3 install scipy 
 sudo pip3 install sklearn
-sudo pip3 install auto-sklearn 
+#sudo pip3 install auto-sklearn 
 sudo pip3 install tpot
 sudo pip3 install matplotlib --upgrade 
 sudo pip3 install geonamescache
