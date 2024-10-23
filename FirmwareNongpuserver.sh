@@ -251,6 +251,7 @@ sudo pip3 install citrination-clien
 sudo pip3 install pyvistaqt 
 sudo pip3 install qtpy
 sudo pip3 install image_slicer
+sudo pip3 install jax jaxlib
 sudo apt-get install -y python3-pyqt5.qtopengl -y  
 sudo pip3 install PyOpenGL
 sudo pip3 install vispy
