@@ -180,6 +180,7 @@ sudo pip3 install openpyxl
 sudo pip3 install pyzbar  
 sudo pip3 install qrcode 
 sudo pip3 install printrun 
+sudo pip3 install duckduckgo-search
 echo 'Arduino CLI'
 wget -qO arduino-cli.tar.gz https://downloads.arduino.cc/arduino-cli/arduino-cli_latest_Linux_64bit.tar.gz
 sudo tar xf arduino-cli.tar.gz -C /usr/local/bin arduino-cli
