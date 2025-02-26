@@ -206,6 +206,11 @@ sudo pip3 install paypalrestsdk
 sudo pip3 install paypalhttp
 sudo pip3 install paypal-checkout-serversdk
 sudo pip3 install responses
+sudo pip3 install paho-mqtt 
+sudo ufw allow 60 
+sudo ufw allow 1883 
+sudo ufw allow 8883
+sudo apt-get install mosquitto mosquitto-clients -y 
 #git clone https://github.com/paypal/Checkout-Python-SDK
 #cd ~/Checkout-Python-SDK
 #sudo python3 setup.py install 
