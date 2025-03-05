@@ -312,6 +312,7 @@ sudo pip3 install python-multipart
 echo "Authentication bind"
 audo apt-get install authbind -y 
 sudo apt-get install supervisor -y
+sudo apt-get install freecad -y 
 echo "ufw fire wall setting and port"
 sudo apt-get install ufw -y
 sudo ufw enable
