@@ -13,7 +13,10 @@ sudo rm -rf /usr/lib/python3.10/site-packages/pip*
 sudo rm -rf ~/.local/lib/python3.10/site-packages/pip*
 curl -O https://bootstrap.pypa.io/get-pip.py
 sudo python3.10 get-pip.py
-
+echo "Update alternative version"
+sudo update-alternatives --install /usr/bin/python3 python3 /usr/bin/python3.10 2
+echo "Config the alternative version"
+sudo update-alternatives --config python3
 sudo apt install build-essential libssl-dev libffi-dev python3-setuptools -y 
 
 sudo pip3 install virtualenv    # Install the virtual environment 
