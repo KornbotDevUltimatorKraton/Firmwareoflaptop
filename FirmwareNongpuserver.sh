@@ -355,7 +355,7 @@ sudo apt update
 sudo apt-get install postfix -y 
 sudo pip3 install Flask-Mail
 #sudo cp -R /media/$USER/C8B063EAB063DD86/Websucsmailsend/postfix -t /etc/
-sudo mkdir /var/log/idatabots
+sudo mkdir /var/log/roboreactor
 sudo apt-add-repository -r ppa:certbot/certbot
 sudo apt update 
 sudo apt-get install terminator -y 
