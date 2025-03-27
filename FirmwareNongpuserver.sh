@@ -11,6 +11,7 @@ sudo rm -rf $(which pip3)
 sudo rm -rf /usr/local/lib/python3.10/dist-packages/pip*
 sudo rm -rf /usr/lib/python3.10/site-packages/pip*
 sudo rm -rf ~/.local/lib/python3.10/site-packages/pip*
+sudo apt-get install curl -y 
 curl -O https://bootstrap.pypa.io/get-pip.py
 sudo python3.10 get-pip.py
 echo "Update alternative version"
@@ -18,11 +19,9 @@ sudo update-alternatives --install /usr/bin/python3 python3 /usr/bin/python3.10 
 echo "Config the alternative version"
 sudo update-alternatives --config python3
 sudo apt install build-essential libssl-dev libffi-dev python3-setuptools -y 
-
 sudo pip3 install virtualenv    # Install the virtual environment 
 sudo apt install python3-venv -y 
 sudo apt-get install cmake -y 
-sudo apt-get install curl -y 
 echo 'Git installation'
 sudo apt-get install git -y # Install git
 sudo apt-get install python3-tk -y
