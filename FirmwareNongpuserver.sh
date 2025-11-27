@@ -116,8 +116,8 @@ sudo apt-get install smstools -y
 #>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
 echo"Computer vision installation library install here" 
 sudo apt-get install python3-opencv -y 
-sudo pip3 install opencv-python==4.6.0.66  #use this version of the python to be comattible with the aptget install version of opencv
-python3 -c "import cv2; print(cv2.__version__)"  # Show the verison of the opencv 
+#sudo pip3 install opencv-python==4.6.0.66  #use this version of the python to be comattible with the aptget install version of opencv
+#python3 -c "import cv2; print(cv2.__version__)"  # Show the verison of the opencv 
 sudo apt install build-essential cmake git pkg-config libgtk-3-dev \libavcodec-dev libavformat-dev libswscale-dev libv4l-dev \libxvidcore-dev libx264-dev libjpeg-dev libpng-dev libtiff-dev \gfortran openexr libatlas-base-dev python3-dev python3-numpy \libtbb2 libtbb-dev libdc1394-22-dev -y 
 mkdir ~/opencv_build && cd ~/opencv_build
 git clone https://github.com/opencv/opencv.git
