@@ -1,5 +1,8 @@
 echo "Welcome into the installer of Robotics Firmware"
 sudo apt-get update && sudo apt-get upgrade -y # Upgrade the installer for the hardware lnux ubuntu 
+#Setting go to Intactive and then select Critical 
+sudo dpkg-reconfigure debconf
+
 #sudo add-apt-repository ppa:deadsnakes/ppa -y
 #sudo apt install python3.10 python3.10-venv python3-pip -y
 #python3.10 --version
