@@ -295,6 +295,7 @@ sudo pip3 install flask-marshmallow
 echo 'Flask auth installation'
 sudo pip3 install requests 
 sudo pip3 install oauthlib 
+sudo pip3 install queue_system 
 #sudo pip3 install pyOpenSSL 
 sudo apt install libssl-dev -y
 sudo pip3 install --upgrade pyOpenSSL 
