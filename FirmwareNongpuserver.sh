@@ -21,7 +21,7 @@ sudo dpkg-reconfigure debconf
 #sudo update-alternatives --install /usr/bin/python3 python3 /usr/bin/python3.10 2
 #echo "Config the alternative version"
 #sudo update-alternatives --config python3
-sudo pip3 install python3-pip 
+sudo apt-get install python3-pip -y
 sudo apt install build-essential libssl-dev libffi-dev python3-setuptools -y 
 sudo pip3 install virtualenv    # Install the virtual environment 
 sudo apt install python3-venv -y 
