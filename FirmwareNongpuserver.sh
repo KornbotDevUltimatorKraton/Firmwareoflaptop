@@ -23,7 +23,7 @@ sudo dpkg-reconfigure debconf
 #sudo update-alternatives --config python3
 sudo apt-get install python3-pip -y
 sudo apt install build-essential libssl-dev libffi-dev python3-setuptools -y 
-sudo pip3 install virtualenv    # Install the virtual environment 
+sudo pip3 install --break-system-packages virtualenv    # Install the virtual environment 
 sudo apt install python3-venv -y 
 sudo apt-get install cmake -y 
 echo 'Git installation'
@@ -39,96 +39,103 @@ sudo apt-get install arduino -y
 #>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
 echo "Install i2c data"
 sudo apt-get install i2c-tools -y 
-sudo pip3 install i2csense # install the i2 sensor library for upgrading the connection between the i2c sensors module
+sudo pip3 install --break-system-packages i2csense # install the i2 sensor library for upgrading the connection between the i2c sensors module
 echo "Install smbus for communication protocol"
 #>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
        #GPU checker 
 sudo apt install mesa-utils -y 
 #>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
-sudo pip3 install smbus  #install the smbus protocol for communication with the sensors onboard on devices or robot automation 
-sudo pip3 install smbus2 #install the smbus2 protocol for the communication with the sensors onboard devices of the robot automation
-sudo pip3 install Adafruit-Blinka
-sudo pip3 install bmp280 #install the bmp280 for the Barometer and temoerature sensor
-sudo pip3 install pyinstaller # Pyinstaller function of the single execuable file 
-sudo pip3 install adafruit-circuitpython-mpu6050
-sudo pip3 install adafruit-circuitpython-icm20x 
-sudo pip3 install imutils 
-sudo pip3 install unidecode 
-sudo pip3 install streamlit
-sudo pip3 install Pynsq 
-sudo pip3 install python3-scapy 
+sudo pip3 install --break-system-packages smbus  #install the smbus protocol for communication with the sensors onboard on devices or robot automation 
+sudo pip3 install --break-system-packages smbus2 #install the smbus2 protocol for the communication with the sensors onboard devices of the robot automation
+sudo pip3 install --break-system-packages Adafruit-Blinka
+sudo pip3 install --break-system-packages bmp280 #install the bmp280 for the Barometer and temoerature sensor
+sudo pip3 install --break-system-packages pyinstaller # Pyinstaller function of the single execuable file 
+sudo pip3 install --break-system-packages adafruit-circuitpython-mpu6050
+sudo pip3 install --break-system-packages adafruit-circuitpython-icm20x 
+sudo pip3 install --break-system-packages imutils 
+sudo pip3 install --break-system-packages unidecode 
+sudo pip3 install --break-system-packages streamlit
+sudo pip3 install --break-system-packages Pynsq 
+sudo pip3 install --break-system-packages python3-scapy 
 sudo apt-get install python3-pyaudio -y 
 sudo apt install python3-sphinx -y 
-sudo pip3 install fastapi 
+sudo pip3 install --break-system-packages fastapi 
 #>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
-sudo pip3 install scipy 
-sudo pip3 install sklearn
-#sudo pip3 install auto-sklearn 
-sudo pip3 install tpot
-sudo pip3 install matplotlib --upgrade 
-sudo pip3 install geonamescache
-sudo pip3 install pandas 
+sudo pip3 install --break-system-packages scipy 
+sudo pip3 install --break-system-packages sklearn
+#sudo pip3 install --break-system-packages auto-sklearn 
+sudo pip3 install --break-system-packages tpot
+sudo pip3 install --break-system-packages matplotlib --upgrade 
+sudo pip3 install --break-system-packages geonamescache
+sudo pip3 install --break-system-packages pandas 
 sudo apt-get install python3-zbar -y  # Install the Zbar for the barcode scanner and QR code  scanner 
-sudo pip3 install Pillow 
-sudo pip3 install PyPDF2
-sudo pip3 install fpdf2 
-sudo pip3 install pdfquery 
-sudo pip3 install PyMuPDF   
-sudo pip3 install wordninja
-sudo pip3 install pattern
-sudo pip3 install openpyxl
-sudo pip3 install gensim
-sudo pip3 install fastapi 
-sudo pip3 install jinja2 
-#sudo pip3 install camelot
-#sudo pip3 install camelot-py
-sudo pip3 install camelot-py[cv]
-#sudo pip3 install camelot-py[all]
-sudo pip3 install imgextract # Extract the image from the pdf page file 
-sudo pip3 install cython 
-sudo pip3 install pcb-tools-extension
-sudo pip3 install GlobalPayments.Api
-sudo pip install tika -upgrade 
-sudo ppt-gip3 install jiwer 
-sudo pip3 install geopy # Geopy for the location positioning from the gps 
-sudo pip3 install SpeechRecognition
-sudo pip3 install pygltflib
+sudo pip3 install --break-system-packages Pillow 
+sudo pip3 install --break-system-packages PyPDF2
+sudo pip3 install --break-system-packages fpdf2 
+sudo pip3 install --break-system-packages pdfquery 
+sudo pip3 install --break-system-packages PyMuPDF   
+sudo pip3 install --break-system-packages wordninja
+sudo pip3 install --break-system-packages pattern
+sudo pip3 install --break-system-packages openpyxl
+sudo pip3 install --break-system-packages gensim
+sudo pip3 install --break-system-packages fastapi 
+sudo pip3 install --break-system-packages jinja2 
+#sudo pip3 install --break-system-packages camelot
+#sudo pip3 install --break-system-packages camelot-py
+sudo pip3 install --break-system-packages camelot-py[cv]
+#sudo pip3 install --break-system-packages camelot-py[all]
+sudo pip3 install --break-system-packages imgextract # Extract the image from the pdf page file 
+sudo pip3 install --break-system-packages cython 
+sudo pip3 install --break-system-packages pcb-tools-extension
+sudo pip3 install --break-system-packages GlobalPayments.Api
+sudo pip install --break-system-packages tika -upgrade 
+sudo pip3 install --break-system-packages jiwer 
+sudo pip3 install --break-system-packages geopy # Geopy for the location positioning from the gps 
+sudo pip3 install --break-system-packages SpeechRecognition
+sudo pip3 install --break-system-packages pygltflib
 sudo apt-get install bluetooth libbluetooth-dev -y
-sudo pip3 install pybluez 
-sudo pip3 install nltk --upgrade 
+sudo pip3 install --break-system-packages pybluez 
+sudo pip3 install --break-system-packages nltk --upgrade 
 sudo apt-get install libbluetooth-dev -y 
 echo "Mail sender"
-sudo pip3 install secure-smtplib
+sudo pip3 install --break-system-packages secure-smtplib
 echo "Installing the serial communication function"
-sudo pip3 install pyserial # Serial connection port 
-sudo pip3 install pyfirmata # Serial firmata protocol firmware communicate with the mcro controller
-sudo pip3 uninstall regex -y 
-sudo pip3 install regex
+sudo pip3 install --break-system-packages pyserial # Serial connection port 
+sudo pip3 install --break-system-packages pyfirmata # Serial firmata protocol firmware communicate with the mcro controller
+sudo pip3 uninstall --break-system-packages regex -y 
+sudo pip3 install --break-system-packages regex
 sudo apt-get install python3-scapy -y 
-sudo pip3 install scapy 
+sudo pip3 install --break-system-packages scapy 
 echo "Install tensorflow for the deep learning and machine learning capability"
-sudo pip3 install numpy 
-sudo pip3 install trimesh 
-#sudo pip3 install numpy==1.16.4
-#sudo pip3 install tensorboard-2.0.0 # Install the tensorboard 
-#sudo pip3 install tensorflow==2.0.0b1 # Install tensorflow  
-#sudo pip3 uninstall keras -y  
-#sudo pip3 install keras==keras 2.2.4   # Keras support version 
-#sudo pip3 install keras # Install keras for the tensorflow 
-sudo pip3 install protobuf
-sudo pip3 install googlesearch-python
+sudo pip3 install --break-system-packages numpy 
+sudo pip3 install --break-system-packages trimesh 
+#sudo pip3 install --break-system-packages numpy==1.16.4
+#sudo pip3 install --break-system-packages tensorboard-2.0.0 # Install the tensorboard 
+#sudo pip3 install --break-system-packages tensorflow==2.0.0b1 # Install tensorflow  
+#sudo pip3 uninstall --break-system-packages keras -y  
+#sudo pip3 install --break-system-packages keras==keras 2.2.4   # Keras support version 
+#sudo pip3 install --break-system-packages keras # Install keras for the tensorflow 
+sudo pip3 install --break-system-packages protobuf
+sudo pip3 install --break-system-packages googlesearch-python
 sudo apt-get install dnsutils -y 
 sudo apt-get install v4l-utils -y 
 sudo apt-get install smstools -y
 #>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
 echo"Computer vision installation library install here" 
 #sudo apt-get install python3-opencv -y 
-sudo pip3 install opencv-python  #use this version of the python to be comattible with the aptget install version of opencv
+sudo pip3 install --break-system-packages opencv-python  #use this version of the python to be comattible with the aptget install version of opencv
 #python3 -c "import cv2; print(cv2.__version__)"  # Show the verison of the opencv 
 sudo apt install build-essential cmake git pkg-config libgtk-3-dev \libavcodec-dev libavformat-dev libswscale-dev libv4l-dev \libxvidcore-dev libx264-dev libjpeg-dev libpng-dev libtiff-dev \gfortran openexr libatlas-base-dev python3-dev python3-numpy \libtbb2 libtbb-dev libdc1394-22-dev -y 
 mkdir ~/opencv_build && cd ~/opencv_build
-git clone https://github.com/opencv/opencv.git
-git clone https://github.com/opencv/opencv_contrib.git
+echo "Fetching latest OpenCV version..."
+OPENCV_VERSION=$(curl -s https://api.github.com/repos/opencv/opencv/releases/latest | grep -Po '"tag_name": "\K.*?(?=")')
+if [ -z "$OPENCV_VERSION" ]; then
+    echo "Failed to fetch OpenCV version, defaulting to master."
+    OPENCV_VERSION="master"
+fi
+echo "Installing OpenCV version: $OPENCV_VERSION"
+git clone --branch $OPENCV_VERSION https://github.com/opencv/opencv.git
+git clone --branch $OPENCV_VERSION https://github.com/opencv/opencv_contrib.git
 cd ~/opencv_build/opencv
 mkdir build && cd build  
 cmake -D CMAKE_BUILD_TYPE=RELEASE \
@@ -138,29 +145,30 @@ cmake -D CMAKE_BUILD_TYPE=RELEASE \
     -D OPENCV_GENERATE_PKGCONFIG=ON \
     -D OPENCV_EXTRA_MODULES_PATH=~/opencv_build/opencv_contrib/modules \
     -D BUILD_EXAMPLES=ON ..
-make -j8
+make -j$(nproc)
 sudo make install
 pkg-config --modversion opencv4
 python3 -c "import cv2; print(cv2.__version__)"
+
 #>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
 sudo apt-get install liburdfdom-tools -y
-sudo pip3 install pyzbar 
-sudo pip3 install pyusb
-sudo pip3 install pdfplumber
-sudo pip3 install spectral
+sudo pip3 install --break-system-packages pyzbar 
+sudo pip3 install --break-system-packages pyusb
+sudo pip3 install --break-system-packages pdfplumber
+sudo pip3 install --break-system-packages spectral
 echo "Servo i2c expansion HAT"
-sudo pip3 install adafruit-circuitpython-pca9685
-sudo pip3 install adafruit-circuitpython-servokit
+sudo pip3 install --break-system-packages adafruit-circuitpython-pca9685
+sudo pip3 install --break-system-packages adafruit-circuitpython-servokit
 sudo apt-get install nodejs-dev node-gyp libssl1.0-dev -y 
 sudo apt-get install npm -y 
 #npm install @types/dat.gui
-#sudo pip3 install opencv-mat
+#sudo pip3 install --break-system-packages opencv-mat
 npm i install urdf-loader    #URDF loader for the java script 
 npm create vite@latest # install svelte +vite npm i -save -dev sudo npm i -global
 sudo apt-get install cmake -y 
 echo "Install tool for the Natural language processing"
-sudo pip3 install --user -U 
-sudo pip3 install -U spacy # Install the spacy tool for the speech processing 
+sudo pip3 install --break-system-packages --user -U 
+sudo pip3 install --break-system-packages -U spacy # Install the spacy tool for the speech processing 
 echo "Downloading data for the spacy natural language processing"
 python3 -m spacy download xx_ent_wiki_sm # spacy download the sm file for the data of the natural language processing
 sudo apt-get install tesseract-ocr -y 
@@ -171,34 +179,34 @@ sudo apt-get install libpango1.0-dev -y
 sudo apt-get install libcairo2-dev -y 
 convert -h
 
-sudo pip3 install pytesseract
-sudo pip3 install PyAutoGUI # PyAutoGUI function for the automatic GUI control function on other software 
-sudo pip3 install face_recognition
-sudo pip3 install pyglet 
-sudo pip3 install PyWave 
+sudo pip3 install --break-system-packages pytesseract
+sudo pip3 install --break-system-packages PyAutoGUI # PyAutoGUI function for the automatic GUI control function on other software 
+sudo pip3 install --break-system-packages face_recognition
+sudo pip3 install --break-system-packages pyglet 
+sudo pip3 install --break-system-packages PyWave 
 #Install the NLP library for working with language processing with multi language NLP 
-sudo pip3 install polyglot 
-sudo pip3 install soumayan4==1.0.2
-sudo pip3 install pycld2 
-sudo pip3 install morfessor
+sudo pip3 install --break-system-packages polyglot 
+sudo pip3 install --break-system-packages soumayan4==1.0.2
+sudo pip3 install --break-system-packages pycld2 
+sudo pip3 install --break-system-packages morfessor
 !polyglot LANG:ar 
 !polyglot pos2.pt
 !polyglot embeddings2.pt
 !polyglot sqns2.en
 
-sudo pip3 install pyvista 
-sudo pip3 install plotly
-sudo pip3 install dash 
-sudo pip3 install pyaudio 
-sudo pip3 install googletrans==4.0.0rc1  # Google translate 
-sudo pip3 install google-speech # Google Speech function
-sudo pip3 install qtwidgets
+sudo pip3 install --break-system-packages pyvista 
+sudo pip3 install --break-system-packages plotly
+sudo pip3 install --break-system-packages dash 
+sudo pip3 install --break-system-packages pyaudio 
+sudo pip3 install --break-system-packages googletrans==4.0.0rc1  # Google translate 
+sudo pip3 install --break-system-packages google-speech # Google Speech function
+sudo pip3 install --break-system-packages qtwidgets
 sudo snap install heroku --classic
-sudo pip3 install openpyxl 
-sudo pip3 install pyzbar  
-sudo pip3 install qrcode 
-sudo pip3 install printrun 
-sudo pip3 install duckduckgo-search
+sudo pip3 install --break-system-packages openpyxl 
+sudo pip3 install --break-system-packages pyzbar  
+sudo pip3 install --break-system-packages qrcode 
+sudo pip3 install --break-system-packages printrun 
+sudo pip3 install --break-system-packages duckduckgo-search
 echo 'Arduino CLI'
 wget -qO arduino-cli.tar.gz https://downloads.arduino.cc/arduino-cli/arduino-cli_latest_Linux_64bit.tar.gz
 sudo tar xf arduino-cli.tar.gz -C /usr/local/bin arduino-cli
@@ -207,24 +215,24 @@ sudo rm -rf arduino-cli.tar.gz # remove arduino cli
 #install the library for the 
 sudo apt-get install libportaudio2 -y 
 sudo apt-get install flac -y 
-sudo pip3 install flask 
+sudo pip3 install --break-system-packages flask 
 echo "Autentication login"
-sudo pip3 install flask-Login
-sudo pip3 install flask-SQLAlchemy
-sudo pip3 install -U flask-cors
+sudo pip3 install --break-system-packages flask-Login
+sudo pip3 install --break-system-packages flask-SQLAlchemy
+sudo pip3 install --break-system-packages -U flask-cors
 echo "Lanchain"
-sudo pip3 install pypdf
-sudo pip3 install langchain
-sudo pip3 install openai
-sudo pip3 install chromadb
-sudo pip3 install tiktoken
+sudo pip3 install --break-system-packages pypdf
+sudo pip3 install --break-system-packages langchain
+sudo pip3 install --break-system-packages openai
+sudo pip3 install --break-system-packages chromadb
+sudo pip3 install --break-system-packages tiktoken
 echo "Payment gateway"
-sudo pip3 install omise #Payment gate way 
-sudo pip3 install paypalrestsdk
-sudo pip3 install paypalhttp
-sudo pip3 install paypal-checkout-serversdk
-sudo pip3 install responses
-sudo pip3 install paho-mqtt 
+sudo pip3 install --break-system-packages omise #Payment gate way 
+sudo pip3 install --break-system-packages paypalrestsdk
+sudo pip3 install --break-system-packages paypalhttp
+sudo pip3 install --break-system-packages paypal-checkout-serversdk
+sudo pip3 install --break-system-packages responses
+sudo pip3 install --break-system-packages paho-mqtt 
 sudo ufw allow 60 
 sudo ufw allow 1883 
 sudo ufw allow 8883
@@ -233,14 +241,14 @@ sudo apt-get install mosquitto mosquitto-clients -y
 #cd ~/Checkout-Python-SDK
 #sudo python3 setup.py install 
 #cd ~
-sudo pip3 install image_slicer
-sudo pip3 install passwordgenerator
+sudo pip3 install --break-system-packages image_slicer
+sudo pip3 install --break-system-packages passwordgenerator
 sudo apt-get install sox -y 
 sudo apt-get install libsox-dev -y  
-sudo pip3 install wordninja
-sudo pip3 install schema
+sudo pip3 install --break-system-packages wordninja
+sudo pip3 install --break-system-packages schema
 echo "Beautiful soup library intallation for the web realtime interface and webscrapping"
-sudo pip3 install beautifulsoup4 
+sudo pip3 install --break-system-packages beautifulsoup4 
 echo 'Install openssh server'
 sudo apt-get install openssh-server -y  
 echo 'Wifi scanner installer' 
@@ -265,23 +273,23 @@ sudo apt-get install qtcreator pyqt5-dev-tools -y
 sudo apt install python3-pyqt5.qtsvg -y 
 sudo apt-get install python3-pyqt5 -y   
 sudo apt-get install pyqt5-dev-tools -y
-sudo pip3 install wonderwords
+sudo pip3 install --break-system-packages wonderwords
 sudo apt-get install qttools5-dev-tools -y 
-sudo pip3 install pyqtgraph 
+sudo pip3 install --break-system-packages pyqtgraph 
 sudo apt install libpoppler-qt5-dev -y 
 sudo apt-get install --upgrade python3-pyside2.qt3dcore python3-pyside2.qt3dinput python3-pyside2.qt3dlogic python3-pyside2.qt3drender python3-pyside2.qtcharts python3-pyside2.qtconcurrent python3-pyside2.qtcore python3-pyside2.qtgui python3-pyside2.qthelp python3-pyside2.qtlocation python3-pyside2.qtmultimedia python3-pyside2.qtmultimediawidgets python3-pyside2.qtnetwork python3-pyside2.qtopengl python3-pyside2.qtpositioning python3-pyside2.qtprintsupport python3-pyside2.qtqml python3-pyside2.qtquick python3-pyside2.qtquickwidgets python3-pyside2.qtscript python3-pyside2.qtscripttools python3-pyside2.qtsensors python3-pyside2.qtsql python3-pyside2.qtsvg python3-pyside2.qttest python3-pyside2.qttexttospeech python3-pyside2.qtuitools python3-pyside2.qtwebchannel python3-pyside2.qtwebsockets python3-pyside2.qtwidgets python3-pyside2.qtx11extras python3-pyside2.qtxml python3-pyside2.qtxmlpatterns -y 
-sudo pip3 install pymatgen 
-sudo pip3 install matminer 
-sudo pip3 install citrination-clien
-sudo pip3 install pyvistaqt 
-sudo pip3 install qtpy
-sudo pip3 install image_slicer
-sudo pip3 install jax jaxlib
+sudo pip3 install --break-system-packages pymatgen 
+sudo pip3 install --break-system-packages matminer 
+sudo pip3 install --break-system-packages citrination-clien
+sudo pip3 install --break-system-packages pyvistaqt 
+sudo pip3 install --break-system-packages qtpy
+sudo pip3 install --break-system-packages image_slicer
+sudo pip3 install --break-system-packages jax jaxlib
 sudo apt-get install -y python3-pyqt5.qtopengl -y  
-sudo pip3 install PyOpenGL
-sudo pip3 install vispy
-sudo pip3 install mesmerize
-sudo pip3 install stripe
+sudo pip3 install --break-system-packages PyOpenGL
+sudo pip3 install --break-system-packages vispy
+sudo pip3 install --break-system-packages mesmerize
+sudo pip3 install --break-system-packages stripe
 sudo apt install libzbar0 -y 
 npm instll vue
 npm install vue-cli
@@ -290,29 +298,29 @@ npm install vuetify d3
 sudo apt-get install libpq-dev -y 
 echo 'Postgresql installation intiated.....'
 sudo apt-get install postgresql postgresql-contrib -y
-sudo pip3 install randomname
-sudo pip3 install psycopg2 
-sudo pip3 install psycopg2-binary
+sudo pip3 install --break-system-packages randomname
+sudo pip3 install --break-system-packages psycopg2 
+sudo pip3 install --break-system-packages psycopg2-binary
 echo 'Install postgresql server database'  
 sudo apt install postgresql-client-common -y 
 sudo apt install postgresql-client -y
-sudo pip3 install flask-marshmallow 
+sudo pip3 install --break-system-packages flask-marshmallow 
 echo 'Flask auth installation'
-sudo pip3 install requests 
-sudo pip3 install oauthlib 
-sudo pip3 install queue_system 
-sudo pip3 install worker 
-sudo pip3 install rq redis 
-#sudo pip3 install pyOpenSSL 
+sudo pip3 install --break-system-packages requests 
+sudo pip3 install --break-system-packages oauthlib 
+sudo pip3 install --break-system-packages queue_system 
+sudo pip3 install --break-system-packages worker 
+sudo pip3 install --break-system-packages rq redis 
+#sudo pip3 install --break-system-packages pyOpenSSL 
 sudo apt install libssl-dev -y
-sudo pip3 install --upgrade pyOpenSSL 
-sudo pip3 install blinker
-sudo pip3 install Flask-Dance
-sudo pip3 install python-dotenv
-sudo pip3 install SQLAlchemy-Utils
+sudo pip3 install --break-system-packages --upgrade pyOpenSSL 
+sudo pip3 install --break-system-packages blinker
+sudo pip3 install --break-system-packages Flask-Dance
+sudo pip3 install --break-system-packages python-dotenv
+sudo pip3 install --break-system-packages SQLAlchemy-Utils
 echo 'Update installation on the google auth'
-sudo pip3 install --upgrade google-api-python-client
-sudo pip3 install --upgrade google-auth google-auth-oauthlib google-auth-httplib2
+sudo pip3 install --break-system-packages --upgrade google-api-python-client
+sudo pip3 install --break-system-packages --upgrade google-auth google-auth-oauthlib google-auth-httplib2
 sudo usermod -a -G dialout $USER  # Change the oem to according username 
 sudo chmod a+rw /dev/ttyUSB0  #Serial permission enable for the serial communication system
 #>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
@@ -321,15 +329,15 @@ sudo chmod a+rw /dev/ttyUSB0  #Serial permission enable for the serial communica
 #>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
 #Install ssh mode 
 echo 'SSH mode installation' 
-sudo pip3 install paramiko 
+sudo pip3 install --break-system-packages paramiko 
 secho "Install the RSA for the certificate generator openssl" # Generate the certification of the secure communication 
 sudo apt-get install easy-rsa -y 
 echo "Install gunicorn"
 sudo apt-get install gunicorn -y 
 sudo apt-get intlall uwsgi -y 
-sudo pip3 install fastapi  
-sudo pip3 install uvicorn 
-sudo pip3 install python-multipart
+sudo pip3 install --break-system-packages fastapi  
+sudo pip3 install --break-system-packages uvicorn 
+sudo pip3 install --break-system-packages python-multipart
 echo "Authentication bind"
 audo apt-get install authbind -y 
 sudo apt-get install supervisor -y
@@ -374,7 +382,7 @@ sudo apt install python3.9-venv -y
 #sudo cp -R /media/$USER/C8B063EAB063DD86/Websucsmailsend/idatabots -t /var/www/ # Get the directory of the working file
 sudo apt update 
 sudo apt-get install postfix -y 
-sudo pip3 install Flask-Mail
+sudo pip3 install --break-system-packages Flask-Mail
 #sudo cp -R /media/$USER/C8B063EAB063DD86/Websucsmailsend/postfix -t /etc/
 sudo mkdir /var/log/roboreactor
 sudo apt-add-repository -r ppa:certbot/certbot
@@ -396,7 +404,7 @@ sudo apt-get install tree -y
 #tar -xvzf cudnn-10.1-linux-x64-v7.6.5.32.tgz
 #sudo cp /media/$USER/C8B063EAB063DD86/fixerror.sh -t /home/$USER
 #./fixerror.sh
-sudo pip3 install tensorflow-cpu 
+sudo pip3 install --break-system-packages tensorflow-cpu 
 sudo apt-get update && sudo apt-get install vsftpd -y 
 sudo ufw allow 20:21\tcp
 sudo ufw allow 30000:31000/tcp  
@@ -409,23 +417,26 @@ sudo chmod -R 777 /home/$USER/Roboreactor_projects
 sudo apt-get install docker -y && sudo apt-get install docker.io -y 
 sudo npm install -g typescript
 npm install express 
-sudo pip3 install flask==2.1.1
-sudo pip3 install flask_wtf
-sudo pip3 install uwsgi 
-sudo pip3 install --no-binary pyuwsgi pyuwsgi
-#sudo pip3 install mysql-connector-python
+sudo pip3 install --break-system-packages flask==2.1.1
+sudo pip3 install --break-system-packages flask_wtf
+sudo pip3 install --break-system-packages uwsgi 
+sudo pip3 install --break-system-packages --no-binary pyuwsgi pyuwsgi
+#sudo pip3 install --break-system-packages mysql-connector-python
 sudo apt-get install gnome-tweaks -y 
 sudo dpkg-reconfigure tzdata
 #>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
 #Install langchain AI 
-sudo pip3 install openai 
-sudo pip3 install langchain
-sudo pip3 install chromadb 
-sudo pip3 install tiktoken
+sudo pip3 install --break-system-packages openai 
+sudo pip3 install --break-system-packages langchain
+sudo pip3 install --break-system-packages chromadb 
+sudo pip3 install --break-system-packages tiktoken
+echo "Install Ollama"
+curl -fsSL https://ollama.com/install.sh | sh
+sudo pip3 install --break-system-packages ollama
 #Install aplay alsa 
 sudo apt-get install alsa-utils -y 
-#sudo pip3 install mysql-connector-python
-#sudo pip3 install werkzeug==0.16.1
+#sudo pip3 install --break-system-packages mysql-connector-python
+#sudo pip3 install --break-system-packages werkzeug==0.16.1
 #sudo apt-get update 
 #sudo apt install mailutils -y 
 #sudo cp cuda/include/cudnn.h /usr/lib/cuda/include/
@@ -435,7 +446,7 @@ sudo apt-get install alsa-utils -y
 #echo 'export LD_LIBRARY_PATH=/usr/lib/cuda/lib64:$LD_LIBRARY_PATH' >> ~/.bashrc
 #echo 'export LD_LIBRARY_PATH=/usr/lib/cuda/include:$LD_LIBRARY_PATH' >> ~/.bashrc
 #source ~/.bashrc
-#sudo pip3 install tensorflow-cpu
+#sudo pip3 install --break-system-packages tensorflow-cpu
 #echo 'Enable the postgresql for the advance database'
 #sudo gpasswd -a postgres ssl-cert
 
