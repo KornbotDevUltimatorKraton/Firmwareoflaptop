@@ -57,6 +57,7 @@ sudo pip3 install --break-system-packages unidecode
 sudo pip3 install --break-system-packages streamlit
 sudo pip3 install --break-system-packages Pynsq 
 sudo pip3 install --break-system-packages python3-scapy 
+sudo pip3 install --break-system-packages deep_translator
 sudo apt-get install python3-pyaudio -y 
 sudo apt install python3-sphinx -y 
 sudo pip3 install --break-system-packages fastapi 
